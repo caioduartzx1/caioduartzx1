@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color:#292929;
+    height: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.logo img{
+    position: absolute;
+    width: 200px;
+}
+
+nav{
+    margin-top: 2.5%;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 100px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+nav ul li a:hover{
+    color: #FFC120;
+}
+
+.contato{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 6fr 3fr 3fr 1fr;
+    grid-template-rows: 5vh 5vh 5vh;
+    height: 10vh;
+    
+}
+
+.titulo{
+    grid-column-start: 4;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 40px;
+}
+
+
+.Preencha{
+    grid-column-start: 4;
+    grid-row-start: 3;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.pesquisa {
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 15fr  3fr 3fr 3fr 1fr;
+    grid-template-rows: 5fr 5fr 5fr 5fr 5fr 5fr 5fr;
+    height: 20vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+
+
+.texto {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    color: #000000;
+    border-bottom: solid 1px #1a0f0f;
+    padding: 0%;
+    margin-left: 30px;
+    grid-column-start: 3;    
+}
+.texto2 {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    color: #000000;
+    border-bottom: solid 1px #000000;
+    padding: 0%;
+    margin-left: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+.texto3 {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    color: #000000;
+    border-bottom: solid 1px #000000;
+    padding: 0%;
+    margin-left: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+.texto4 {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    color: #000000;
+    border-bottom: solid 1px #000000;
+    padding: 0%;
+    margin-left: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+    grid-row-start: 4;
+    grid-column-start: 3;
+}
+.texto5 {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    color: #000000;
+    border-bottom: solid 1px #000000;
+    padding: 0%;
+    margin-left: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+    grid-row-start: 5;
+    grid-column-start: 3;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+button{
+    grid-column-start: 3;
+    grid-row-start: 6;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 50%;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    background-color: #FFC120;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 6fr 3fr 3fr 1fr;
+    grid-template-rows: 5fr 5fr 5fr;
+    height: 18vh;
+    background-color: #FFC120;
+    margin-top: 30%;
+}
+
+.linha1{
+    grid-column-start: 4;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+.linha2{
+    margin-top: 10px;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    display: flex;
+    align-items: center;
+}
+    
+.insta{
+    margin-left: 85px;
+}
+
+
+svg{
+    height: 30px;
+    margin-left: 50px;
+}
+
+   
+

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gabriela&family=Inika:wght@400;700&family=Inspiration&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Myeongjo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+header {
+    background-color: #292929;
+    height: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.logo img {
+    position: absolute;
+    width: 200px;
+}
+
+nav {
+    margin-top: 2.5%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #FFC120;
+}
+
+.corpo-historia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p{
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.rapidin {
+    grid-column: 1;
+    padding: 100px;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.rapidin h1{
+    text-transform: uppercase;
+}
+
+.historia {
+    background-color: #ff8237;
+    padding: 100px;
+}
+
+.historia h1{
+    color: white;
+}
+
+.historia p{
+    margin-top: 10%;
+}
+
+.topic {
+    background-color: #f4eeee;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.missao, .visao, .valor {
+    padding: 100px;
+    margin-left: 10%;
+}
+
+.titulo{
+    display: flex;
+}
+
+.titulo h1{
+    font-size: 32px;
+}
+
+.titulo svg{
+    margin-top: -15%;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.missao, .visao, .valor p{
+    width: 100%;
+}
+
+.visao .titulo svg{
+    margin-top: -17%;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.visao p{
+    margin-top: -3%;
+}
+
+.valor .titulo svg{
+    margin-top: -17%;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.valor p{
+    text-align: center;
+    margin-left: -25%;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 6fr 3fr 3fr 1fr;
+    grid-template-rows: 5fr 5fr 5fr;
+    height: 18vh;
+    background-color: #f4eeee;
+}
+
+.linha1{
+    grid-column-start: 4;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #ff8237;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+.linha2{
+    margin-top: 10px;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    display: flex;
+    align-items: center;
+    background-color: #ff8237;
+}
+    
+.insta{
+    margin-left: 85px;
+}
+
+
+footer svg{
+    height: 30px;
+    margin-left: 50px;
+}
